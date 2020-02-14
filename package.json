@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "bulls.js",
   "scripts": {
-    "start": "node app"
+    "start": "node bullsAndCows"
   },
   "author": "",
   "license": "ISC",

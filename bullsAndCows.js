@@ -3,7 +3,7 @@ const readlineSync = require('readline-sync'); // зчитування інфо�
 let random1 = `${Math.floor(Math.random() * 10)}`; // Math.floor - округлення, Math.random - число в діапазоні від 0 до 1
 let random2 = `${Math.floor(Math.random() * 10)}`;
 let random3 = `${Math.floor(Math.random() * 10)}`;
-let random4 = `${Math.floor(Math.random() * 10)}`;
+let random4 = `${Math.floor(Math.random() * 10)}`; 
 
 while (random2 == random1) {
     random2 = `${Math.floor(Math.random() * 10)}`;

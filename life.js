@@ -8,7 +8,7 @@ function createBoard(){
     board[i] = [];
 
         for (let j = 0; j < WIDTH; j++){
-            board [i][j] = 0
+            board [i][j] = 0;
         }
     }
 

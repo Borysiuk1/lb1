@@ -18,7 +18,7 @@ while (random4 == random3 || random4 == random2 || random4 == random1) {
 let prescribedNumber = random1 + random2 + random3 + random4; // Загадане число (строка)
 // console.log(prescribedNumber);
 
-let attemptToGuess = readlineSync.question('\nYou should guess the 4-digit number:\nAttempt: ');
+let attemptToGuess = readlineSync.question('\nYou should guess the 4-digit number:\n\nAttempt: ');
 
 let attemptCounter = 1;
 
@@ -37,7 +37,7 @@ while (attemptToGuess != prescribedNumber) {
         }
     }
 
-    console.log(`bulls: ${bulls}, cows: ${cows}`);
+    console.log(`bulls: ${bulls}, cows: ${cows}\n`);
     attemptToGuess = readlineSync.question('Attempt: ');
     
     attemptCounter++;
